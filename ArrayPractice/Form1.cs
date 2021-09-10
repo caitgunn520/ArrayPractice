@@ -36,8 +36,8 @@ namespace ArrayPractice
 
             for (int i = 0; i < array1.Length; i++)
             {
-                array1[i] = randGen.Next(1, 10);
-                array2[i] = randGen.Next(1, 10);
+                array1[i] = randGen.Next(0, 10);
+                array2[i] = randGen.Next(0, 10);
             }
 
 
@@ -127,8 +127,23 @@ namespace ArrayPractice
 
 
             //1. Determine and display at what index is the first 0 in array 1, (show "null" if no 0 exists)
+            int index = 0;
+            for (int i = array1.Length - 1; i >= 0; i--)
+            {
+                if (array1[i] == 0)
+                {
+                    index = i;
+                }
 
-
+            }
+            if (index > 0)
+            {
+                zeroOutput.Text = $"{index}";
+            }
+            else
+            {
+                zeroOutput.Text = "null";
+            }
             //2. swap and display all values between array1 and array2
 
         }

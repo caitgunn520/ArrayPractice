@@ -291,7 +291,7 @@
             this.zeroOutput.Location = new System.Drawing.Point(95, 39);
             this.zeroOutput.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.zeroOutput.Name = "zeroOutput";
-            this.zeroOutput.Size = new System.Drawing.Size(34, 16);
+            this.zeroOutput.Size = new System.Drawing.Size(43, 19);
             this.zeroOutput.TabIndex = 17;
             this.zeroOutput.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
