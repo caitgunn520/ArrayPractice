@@ -20,6 +20,11 @@ namespace ArrayPractice
 
         private void runButton_Click(object sender, EventArgs e)
         {
+            // Clear text boxes
+            array1Output.Text = "";
+            array2Output.Text = "";
+            reverseOutput.Text = "";
+            
             // Create 2 arrays to hold 10 values each
             
             int[] array1 = new int[10];
