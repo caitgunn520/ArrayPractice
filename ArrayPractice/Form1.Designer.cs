@@ -129,7 +129,7 @@
             this.maxOutput.Location = new System.Drawing.Point(121, 23);
             this.maxOutput.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.maxOutput.Name = "maxOutput";
-            this.maxOutput.Size = new System.Drawing.Size(34, 16);
+            this.maxOutput.Size = new System.Drawing.Size(44, 16);
             this.maxOutput.TabIndex = 7;
             this.maxOutput.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -190,7 +190,7 @@
             this.matchOutput.Location = new System.Drawing.Point(121, 120);
             this.matchOutput.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.matchOutput.Name = "matchOutput";
-            this.matchOutput.Size = new System.Drawing.Size(34, 16);
+            this.matchOutput.Size = new System.Drawing.Size(44, 16);
             this.matchOutput.TabIndex = 21;
             this.matchOutput.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -216,7 +216,7 @@
             this.threeOutput.Location = new System.Drawing.Point(121, 95);
             this.threeOutput.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.threeOutput.Name = "threeOutput";
-            this.threeOutput.Size = new System.Drawing.Size(34, 16);
+            this.threeOutput.Size = new System.Drawing.Size(44, 16);
             this.threeOutput.TabIndex = 19;
             this.threeOutput.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -241,7 +241,7 @@
             this.evenOutput.Location = new System.Drawing.Point(121, 71);
             this.evenOutput.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.evenOutput.Name = "evenOutput";
-            this.evenOutput.Size = new System.Drawing.Size(34, 16);
+            this.evenOutput.Size = new System.Drawing.Size(44, 16);
             this.evenOutput.TabIndex = 13;
             this.evenOutput.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -266,7 +266,7 @@
             this.averageOutput.Location = new System.Drawing.Point(121, 48);
             this.averageOutput.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.averageOutput.Name = "averageOutput";
-            this.averageOutput.Size = new System.Drawing.Size(34, 16);
+            this.averageOutput.Size = new System.Drawing.Size(44, 16);
             this.averageOutput.TabIndex = 11;
             this.averageOutput.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
