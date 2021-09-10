@@ -108,11 +108,13 @@ namespace ArrayPractice
             int matchNum = 0;
             for (int i = 0; i < array1.Length; i++)
             {
-                if (array1[i] == array2[2])
+                if (array1[i] == array2[i])
                 {
                     matchNum++;
                 }
             }
+
+            matchOutput.Text = $"{matchNum}";
 
             // ----------------------
             // ##### ENRICHMENT #####
